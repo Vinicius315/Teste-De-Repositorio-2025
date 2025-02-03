@@ -11,7 +11,7 @@ body{
     width: 300px;
 }
 
-.sidbar_navigation{
+.sidbar__navigation{
     background-color:#121212;
     border-radius: 8px;
     padding:  16px 0 0 16px;
@@ -19,7 +19,7 @@ body{
 
 .logo{
     background: #121212;
-    display: fixed;
+    display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
@@ -58,12 +58,12 @@ body{
     margin-top: 10px;
 }
 
-.library .library_content{
+.library .library__content{
     display: flex;
     justify-content: space-between;
 }
 
-.library .library_button{
+.library .library__button{
     display: flex;
     margin-right: 10px;
     color: #b3b3b3;
@@ -78,15 +78,15 @@ body{
     padding: 20px 10px;
 }
 
-.library .library_button .fa{
+.library .library__button .fa{
     font-size: 20px;
     font-weight: 300;
     color: #b3b3b3;
     margin-right: 10px;
-    padding: right 8px; ;
+    padding-right: 8px; ;
 }
 
-.library .library_content .fa-plus{
+.library .library__content .fa-plus{
     margin: 24px 10px;
 }
 
@@ -104,22 +104,22 @@ body{
     border-radius: 10px;
 }
 
-.sectionplaylist .section-playlist_content{
+.sectionplaylist .section-playlist__content{
     display: flex;
     flex-direction: column;
 }
 
-.section-playlist_content .text{
+.section-playlist__content .text{
     padding-bottom: 14px;
     color: #fff;
     font-family: "DM Sans",sans-serif;
 }
 
-.section-playlist_content .title{
+.section-playlist__content .title{
     font-weight: 700;
 }
 
-.section-playlist_content .subtitle{
+.section-playlist__content .subtitle{
     font-weight: 500;
     font-size: 12px;
 }
@@ -128,12 +128,12 @@ body{
 
 
 
-.section-playlist_content .section-playlist_button{
+.section-playlist__content .section-playlist__button{
     display: flex;
     justify-content: center;
     background-color: #fff;
     color: #000;
-    border: 20px;
+    border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
     font-family: "DM Sans",sans-serif;
@@ -161,7 +161,7 @@ body{
     text-decoration: underline;
 }
 
-.languages .languages_button{
+.languages .languages__button{
     align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
